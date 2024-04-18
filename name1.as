@@ -1,3 +1,7 @@
+mcr m_mcr
+inc r2
+mov A,r1
+endmcr
 .define sz = 2
 mov r3,LIST[sz]
 add label[2] , label[ 2 ]
